@@ -1,0 +1,13 @@
+# Exported from Render on 2025-08-08T16:24:44Z
+services:
+- type: web
+  name: xnil6xbot-obito
+  runtime: node
+  repo: https://github.com/raihan9099/xnil6xbot-obito
+  plan: free
+  region: oregon
+  buildCommand: npm install
+  startCommand: node index.js
+  autoDeployTrigger: commit
+  rootDir: ./
+version: "1"
